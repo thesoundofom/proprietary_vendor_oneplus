@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["MTP", "Dragon", "Surf","HDK"],
-    "soc_id": ["339"]
+    "soc_id": ["339", "361"]
   },
   "mmc5603x_0_platform":{
     "owner": "sns_mmc5603x",
@@ -41,10 +41,10 @@
     ".orient":{
       "owner": "sns_mmc5603x",
       "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "+y"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "-x"
       },
       "z":{ "type": "str", "ver": "0",
         "data": "+z"
@@ -57,31 +57,31 @@
         ".corr_mat":{
           "owner": "sns_mmc5603x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "0.998156667"
+            "data": "0.997796"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.057196667"
+            "data": "0.067066"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.007206667"
+            "data": "0.007698"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.031616667"
+            "data": "0.080602"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.806526667"
+            "data": "0.849128"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.014753333"
+            "data": "0.030488"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.023466667"
+            "data": "0.048576"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.035326667"
+            "data": "0.004504"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.073786667"
+            "data": "1.140174"
           }
         },
         ".bias":{

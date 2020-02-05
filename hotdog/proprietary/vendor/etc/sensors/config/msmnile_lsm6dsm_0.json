@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["MTP", "Surf", "QRD"],
-    "soc_id": ["339"]
+    "soc_id": ["339", "361"]
   },
   "lsm6dsm_0_platform":{
     "owner": "lsm6dsm",
@@ -56,13 +56,13 @@
     ".orient":{
       "owner": "lsm6dsm",
       "x":{ "type": "str", "ver": "0",
-        "data": "+y"
+        "data": "-y"
       },
       "y":{ "type": "str", "ver": "0",
         "data": "-x"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "+z"
+        "data": "-z"
       }
     },
     ".gyro":{
@@ -111,6 +111,16 @@
             "data": "0.0"
           }
         }
+      },
+      ".nom_val":
+      {
+        "owner": "lsm6dsm",
+        ".config":{
+          "owner": "lsm6dsm",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "1.0"
+          }
+        }
       }
     },
     ".accel":{
@@ -157,6 +167,16 @@
           },
           "z":{ "type": "flt", "ver": "0",
             "data": "0.0"
+          }
+        }
+      },
+      ".nom_val":
+      {
+        "owner": "lsm6dsm",
+        ".config":{
+          "owner": "lsm6dsm",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "1.0"
           }
         }
       }

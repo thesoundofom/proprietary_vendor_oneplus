@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["MTP", "Surf", "QRD", "HDK"],
-    "soc_id": ["339", "341"]
+    "soc_id": ["361", "341"]
   },
   "stk2232_0_platform":{
     "owner": "sns_stk2232",
